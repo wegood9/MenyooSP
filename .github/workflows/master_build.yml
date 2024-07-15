@@ -2,7 +2,7 @@ name: Master_Build
 
 on:
   push:
-    branches: [ "main", "Development"]
+    branches: [ "main", "Development", "Feature_ImprovedReleases"]
   #workflow_run:
   #  workflows: ["MSBuild"]
   #  types:
@@ -67,7 +67,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   build:
-    if: github.ref == 'refs/heads/main' || (github.ref == 'refs/heads/Development' && needs.check-version-and-merge.outputs.VERSION != '')
+    #if: github.ref == 'refs/heads/main' || (github.ref == 'refs/heads/Development' && needs.check-version-and-merge.outputs.VERSION != '')
     runs-on: windows-latest
     needs: check-version-and-merge
 
