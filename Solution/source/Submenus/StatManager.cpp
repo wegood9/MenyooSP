@@ -214,15 +214,161 @@ namespace sub
 
 			// Is this legal?
 			AddBreak("---Achievements---");
-			bool bUnlockAllAch = false;
-			AddOption("Unlock All Achievements", bUnlockAllAch); if (bUnlockAllAch)
-			{
-				int numAchievements = 59;
-				//gamever
-				for (int i = 0; i < numAchievements; i++)
-					if (!HAS_ACHIEVEMENT_BEEN_PASSED(i))
-						GIVE_ACHIEVEMENT_TO_PLAYER(i);
-			}
+			bool bUnlockTest = false;
+if (HAS_ACHIEVEMENT_BEEN_PASSED(0))
+    AddOption("0", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(1))
+    AddOption("1", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(2))
+    AddOption("2", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(3))
+    AddOption("3", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(4))
+    AddOption("4", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(5))
+    AddOption("5", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(6))
+    AddOption("6", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(7))
+    AddOption("7", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(8))
+    AddOption("8", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(9))
+    AddOption("9", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(10))
+    AddOption("10", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(11))
+    AddOption("11", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(12))
+    AddOption("12", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(13))
+    AddOption("13", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(14))
+    AddOption("14", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(15))
+    AddOption("15", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(16))
+    AddOption("16", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(17))
+    AddOption("17", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(18))
+    AddOption("18", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(19))
+    AddOption("19", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(20))
+    AddOption("20", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(21))
+    AddOption("21", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(22))
+    AddOption("22", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(23))
+    AddOption("23", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(24))
+    AddOption("24", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(25))
+    AddOption("25", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(26))
+    AddOption("26", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(27))
+    AddOption("27", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(28))
+    AddOption("28", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(29))
+    AddOption("29", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(30))
+    AddOption("30", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(31))
+    AddOption("31", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(32))
+    AddOption("32", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(33))
+    AddOption("33", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(34))
+    AddOption("34", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(35))
+    AddOption("35", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(36))
+    AddOption("36", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(37))
+    AddOption("37", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(38))
+    AddOption("38", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(39))
+    AddOption("39", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(40))
+    AddOption("40", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(41))
+    AddOption("41", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(42))
+    AddOption("42", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(43))
+    AddOption("43", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(44))
+    AddOption("44", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(45))
+    AddOption("45", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(46))
+    AddOption("46", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(47))
+    AddOption("47", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(48))
+    AddOption("48", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(49))
+    AddOption("49", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(50))
+    AddOption("50", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(51))
+    AddOption("51", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(52))
+    AddOption("52", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(53))
+    AddOption("53", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(54))
+    AddOption("54", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(55))
+    AddOption("55", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(56))
+    AddOption("56", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(57))
+    AddOption("57", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(58))
+    AddOption("58", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(59))
+    AddOption("59", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(60))
+    AddOption("60", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(61))
+    AddOption("61", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(62))
+    AddOption("62", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(63))
+    AddOption("63", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(64))
+    AddOption("64", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(65))
+    AddOption("65", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(66))
+    AddOption("66", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(67))
+    AddOption("67", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(68))
+    AddOption("68", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(69))
+    AddOption("69", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(70))
+    AddOption("70", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(71))
+    AddOption("71", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(72))
+    AddOption("72", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(73))
+    AddOption("73", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(74))
+    AddOption("74", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(75))
+    AddOption("75", bUnlockTest);
+if (HAS_ACHIEVEMENT_BEEN_PASSED(76))
+    AddOption("76", bUnlockTest);
 		}
 		void Sub_InChar()
 		{
