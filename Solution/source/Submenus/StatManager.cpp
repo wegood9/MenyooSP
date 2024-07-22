@@ -215,13 +215,10 @@ namespace sub
 			// Is this legal?
 			AddBreak("---Achievements---");
 			bool bUnlockAllAch = false;
-			AddOption("Unlock All Achievements", bUnlockAllAch); if (bUnlockAllAch)
+			AddOption("Unlock Achievement N", bUnlockAllAch); if (bUnlockAllAch)
 			{
-				int numAchievements = 59;
-				//gamever
-				for (int i = 0; i < numAchievements; i++)
-					if (!HAS_ACHIEVEMENT_BEEN_PASSED(i))
-						GIVE_ACHIEVEMENT_TO_PLAYER(i);
+					if (!HAS_ACHIEVEMENT_BEEN_PASSED(42))
+						GIVE_ACHIEVEMENT_TO_PLAYER(42);
 			}
 		}
 		void Sub_InChar()
