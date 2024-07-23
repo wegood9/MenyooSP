@@ -217,8 +217,8 @@ namespace sub
 			bool bUnlockAllAch = false;
 			AddOption("Unlock Achievement N", bUnlockAllAch); if (bUnlockAllAch)
 			{
-					if (!HAS_ACHIEVEMENT_BEEN_PASSED(51))
-						GIVE_ACHIEVEMENT_TO_PLAYER(51);
+					if (!HAS_ACHIEVEMENT_BEEN_PASSED(46))
+						GIVE_ACHIEVEMENT_TO_PLAYER(46);
 			}
 		}
 		void Sub_InChar()
