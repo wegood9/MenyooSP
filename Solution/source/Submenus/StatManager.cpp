@@ -217,13 +217,12 @@ namespace sub
 			bool bUnlockAllAch = false;
 			AddOption("Unlock Achievement N", bUnlockAllAch); if (bUnlockAllAch)
 			{
-					if (!HAS_ACHIEVEMENT_BEEN_PASSED(41))
+					if (!HAS_ACHIEVEMENT_BEEN_PASSED(34))
 					{
-						//SET_ACHIEVEMENT_PROGRESS(39, 20);
-						GIVE_ACHIEVEMENT_TO_PLAYER(41);
-						SET_ACHIEVEMENT_PROGRESS(34, 24);
-						SET_ACHIEVEMENT_PROGRESS(35, 24);
-						SET_ACHIEVEMENT_PROGRESS(36, 24);
+						SET_ACHIEVEMENT_PROGRESS(34, 25);
+						GIVE_ACHIEVEMENT_TO_PLAYER(34);
+						SET_ACHIEVEMENT_PROGRESS(35, 25);
+						SET_ACHIEVEMENT_PROGRESS(36, 25);
 					}
 			}
 		}
